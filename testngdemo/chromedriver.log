@@ -1,0 +1,71 @@
+[0.001][INFO]:      ChromeDriver 26.0.1383.0 D:\Personal\Driver\chromedriver.exe
+[1.189][FINE]:      Initializing session with capabilities {
+   "browserName": "chrome",
+   "chrome.switches": [ "start-maximized", "--user-agent=Android 4.0.2-Galaxy Nexus" ],
+   "chromeOptions": {
+      "args": [ "start-maximized", "--user-agent=Android 4.0.2-Galaxy Nexus" ],
+      "extensions": [  ]
+   },
+   "platform": "ANY",
+   "version": ""
+}
+
+[1.191][INFO]:      Launching chrome: "d:\Users\weiliang\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-hang-monitor --disable-prompt-on-repost --dom-automation --full-memory-crash-report --no-default-browser-check --no-first-run --disable-background-networking --disable-sync --disable-translate --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --enable-logging --log-level=1 --ignore-certificate-errors --start-maximized --user-agent="Android 4.0.2-Galaxy Nexus" about:blank
+[1.764][INFO]:      Connected to Chrome successfully. Version: 28.0.1500.72
+[1.795][FINE]:      Command received (/session/9eb46ce06730b651a32334297f51d9e9)
+[1.797][FINE]:      Command finished (/session/9eb46ce06730b651a32334297f51d9e9) with response {
+   "sessionId": "9eb46ce06730b651a32334297f51d9e9",
+   "status": 0,
+   "value": {
+      "acceptSslCerts": false,
+      "applicationCacheEnabled": false,
+      "browserConnectionEnabled": false,
+      "browserName": "chrome",
+      "chrome.chromedriverVersion": "26.0.1383.0",
+      "cssSelectorsEnabled": true,
+      "databaseEnabled": false,
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "locationContextEnabled": false,
+      "nativeEvents": true,
+      "platform": "windows",
+      "rotatable": false,
+      "takesScreenshot": true,
+      "version": "28.0.1500.72",
+      "webStorageEnabled": true
+   }
+}
+
+[1.835][FINE]:      Command received (/session/9eb46ce06730b651a32334297f51d9e9/timeouts/implicit_wait) with params {
+   "ms": 30000
+}
+
+[1.835][FINER]:     Waiting for all views to stop loading...
+[1.838][FINER]:     Done waiting for all views to stop loading
+[1.838][FINER]:     Waiting for all views to stop loading...
+[1.839][FINER]:     Done waiting for all views to stop loading
+[1.839][FINE]:      Command finished (/session/9eb46ce06730b651a32334297f51d9e9/timeouts/implicit_wait) with response {
+   "sessionId": "9eb46ce06730b651a32334297f51d9e9",
+   "status": 0,
+   "value": {
+
+   }
+}
+
+[1.844][FINE]:      Command received (/session/9eb46ce06730b651a32334297f51d9e9/url) with params {
+   "url": "http://www.lvmama.com/client/other/sms.html?c=1&r=1"
+}
+
+[1.844][FINER]:     Waiting for all views to stop loading...
+[1.845][FINER]:     Done waiting for all views to stop loading
+[6.323][FINER]:     Waiting for all views to stop loading...
+[6.326][FINER]:     Done waiting for all views to stop loading
+[6.326][WARNING]:   AfterExecuteCommand failed: Chrome did not respond to 'WaitForAllTabsToStopLoading'. Elapsed time was 2 ms.
+[6.326][FINE]:      Command finished (/session/9eb46ce06730b651a32334297f51d9e9/url) with response {
+   "sessionId": "9eb46ce06730b651a32334297f51d9e9",
+   "status": 0,
+   "value": {
+
+   }
+}
+
