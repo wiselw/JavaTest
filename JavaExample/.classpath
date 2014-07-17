@@ -2,10 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="D:/Personal/java/repo/json-path-0.8.0.jar"/>
-	<classpathentry kind="lib" path="D:/Personal/java/repo/commons-io-2.1.jar"/>
-	<classpathentry kind="lib" path="D:/Personal/java/repo/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="D:/Personal/java/repo/json-smart-1.1.jar"/>
-	<classpathentry kind="lib" path="D:/Personal/Driver/org.json.jar"/>
+	<classpathentry kind="lib" path="E:/lib/org.json.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

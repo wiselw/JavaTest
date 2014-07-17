@@ -3,7 +3,7 @@ import org.json.*;
 public class SendHttpRequest {
 	//
 	public static void main(String[] args) {
-		//½âÎöJson
+		//è§£æJson
 		// TODO Auto-generated method stub
 //        String json ="{ \"store\": {" +
 //        		" \"book\": [ " +
@@ -36,18 +36,18 @@ public class SendHttpRequest {
         	String aa=WebClient.GetContent(a,"utf-8",null);
         	int Length=aa.length()-2;
         	String output =aa.substring(13, Length);
-        	//System.out.println("json³¤¶È£º"+output.length());
+        	//System.out.println("jsoné•¿åº¦ï¼š"+output.length());
         	//List<String> request = JsonPath.read(output, "$.time-series-list[*].tags.requesttype");
-        	//System.out.println("ÊıÁ¿"+request.size());
+        	//System.out.println("æ•°é‡"+request.size());
         	JSONObject jsonObj = new JSONObject(output);
         	//System.out.println(XML.toString(jsonObj));
         	JSONArray jsonarray =jsonObj.getJSONArray("time-series-list");
-        	System.out.println("ÊıÁ¿"+jsonarray.get(0));
+        	System.out.println("æ•°é‡"+jsonarray.get(0));
         	JSONObject jsonObj1 = new JSONObject(jsonarray.get(0).toString());
-        	System.out.println("ÊıÁ¿"+jsonObj1.getString("metrics-name"));
+        	System.out.println("æ•°é‡"+jsonObj1.getString("metrics-name"));
         	JSONObject jTags=jsonObj1.getJSONObject("tags");
         	JSONArray Jrequesttype =jTags.getJSONArray("requesttype");
-        	System.out.println("ÊıÁ¿"+Jrequesttype.length());
+        	System.out.println("æ•°é‡"+Jrequesttype.length());
         	for(int i=0;i<Jrequesttype.length();i++)
             {
           	 System.out.println(String.valueOf(i)+":"+Jrequesttype.get(i));
