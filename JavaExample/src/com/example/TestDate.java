@@ -12,7 +12,7 @@ public class TestDate {
 	 */
 	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
-		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS");//设置日期格式
 		Date now =new Date();
 		Calendar   calendar   =   new   GregorianCalendar(); 
 	    calendar.setTime(now); 

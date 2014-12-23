@@ -6,7 +6,8 @@ public class Testenum {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		RMB item = Enum.valueOf(RMB.class,"ONE");
+		System.out.println(item.toString());
         for(RMB r:RMB.values())
         {
             System.out.println(r+",ordinal "+r.ordinal())   ;     	
